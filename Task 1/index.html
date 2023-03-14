@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Музыкальный сайт</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Музыкальный сайт</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Загрузки</a></li>
+        <li><a href="#">О нас</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Загрузки музыки</h2>
+    <form>
+      <label for="song">Выберите песню:</label>
+      <input type="file" id="song" name="song">
+      <label for="artist">Артист:</label>
+      <input type="text" id="artist" name="artist">
+      <label for="genre">Жанр:</label>
+      <select id="genre" name="genre">
+        <option value="pop">Поп</option>
+        <option value="rock">Рок</option>
+        <option value="rap">Рэп</option>
+        <option value="jazz">Джаз</option>
+      </select>
+      <input type="submit" value="Загрузить">
+    </form>
+    <ul class="song-list">
+      <li>
+        <div class="song-details">
+          <h3>Название песни</h3>
+          <p>Артист: Имя артиста</p>
+          <p>Жанр: Жанр песни</p>
+        </div>
+        <div class="song-actions">
+          <a href="#">Скачать</a>
+          <a href="#">Поделиться</a>
+        </div>
+      </li>
+      <li>
+        <div class="song-details">
+          <h3>Название песни</h3>
+          <p>Артист: Имя артиста</p>
+          <p>Жанр: Жанр песни</p>
+        </div>
+        <div class="song-actions">
+          <a href="#">Скачать</a>
+          <a href="#">Поделиться</a>
+        </div>
+      </li>
+      <li>
+        <div class="song-details">
+          <h3>Название песни</h3>
+          <p>Артист: Имя артиста</p>
+          <p>Жанр: Жанр песни</p>
+        </div>
+        <div class="song-actions">
+          <a href="#">Скачать</a>
+          <a href="#">Поделиться</a>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <p>&copy; 2023 Музыкальный сайт</p>
+  </footer>
+</body>
+</html>

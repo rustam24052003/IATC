@@ -1,0 +1,114 @@
+/* Стиль шапки */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Стиль основного контента */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="file"],
+  input[type="text"],
+  select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .song-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .song-list li {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  
+  .song-details {
+    flex: 1;
+  }
+  
+  .song-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .song-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .song-actions a {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .song-actions a:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Стиль подвала */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
